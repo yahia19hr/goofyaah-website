@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars */
+    width: 100%;
+    height: 100%;
+    background-image: url(Images/profile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bouncing-image {
+    position: absolute;
+    box-shadow: 13px 13px 5px rgb(239, 8, 8), -13px -13px 5px rgb(30, 27, 170);
+    width: 400px; /* Adjust size as needed */
+    height: 250px; /* Adjust size as needed */
+}
